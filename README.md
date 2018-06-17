@@ -26,3 +26,12 @@ The list of codes in internet is exhaustive but I am putting together the most c
 - 500 Internal Server Error
 - 502
 - 503
+
+## Error Schemas
+
+{
+"code": "<A custom code>",
+"info": "<The message to be presented to consumer>",
+"description": "<More details about the error>",
+"errors": [<list of errors here>]
+}
